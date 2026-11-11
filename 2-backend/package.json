@@ -1,0 +1,22 @@
+{
+  "name": "loyalty-backend",
+  "version": "1.0.0",
+  "description": "Part 2 of the Blockchain Loyalty Rewards project: demo data and a REST API that tracks balances and transactions on-chain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.ts",
+    "seed": "node src/seed.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "typescript": "~6.0.3"
+  }
+}

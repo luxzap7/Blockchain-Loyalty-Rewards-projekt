@@ -1,0 +1,13 @@
+{
+  "token": {
+    "name": "Loyalty Token",
+    "symbol": "LOYAL"
+  },
+  "rewards": [
+    { "name": "Free coffee", "cost": 50, "stock": 100 },
+    { "name": "Free dessert", "cost": 80, "stock": 40 },
+    { "name": "10% discount voucher", "cost": 100, "stock": 50 },
+    { "name": "Branded mug", "cost": 300, "stock": 20 },
+    { "name": "Free lunch menu", "cost": 500, "stock": 10 }
+  ]
+}

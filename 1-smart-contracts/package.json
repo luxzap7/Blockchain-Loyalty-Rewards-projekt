@@ -1,0 +1,32 @@
+{
+  "name": "loyalty-smart-contracts",
+  "version": "1.0.0",
+  "description": "Part 1 of the Blockchain Loyalty Rewards project: ERC-20 loyalty token and loyalty program smart contracts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat build",
+    "test": "hardhat test",
+    "coverage": "hardhat test --coverage",
+    "typecheck": "tsc --noEmit",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.2.2",
+    "@nomicfoundation/hardhat-ethers-chai-matchers": "^3.0.13",
+    "@nomicfoundation/hardhat-mocha": "^4.0.1",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.12",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^26.6.6",
+    "chai": "^6.3.0",
+    "ethers": "^6.17.0",
+    "hardhat": "^3.21.2",
+    "mocha": "^12.0.3",
+    "typescript": "~6.0.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}

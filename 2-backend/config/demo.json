@@ -1,0 +1,17 @@
+{
+  "customers": [
+    { "name": "Alice", "accountIndex": 2 },
+    { "name": "Bob", "accountIndex": 3 },
+    { "name": "Carol", "accountIndex": 4 }
+  ],
+  "steps": [
+    { "award": { "to": "Alice", "amount": 250, "reason": "Purchase #1001 (25 EUR)" } },
+    { "award": { "to": "Bob", "amount": 120, "reason": "Purchase #1002 (12 EUR)" } },
+    { "award": { "to": "Carol", "amount": 80, "reason": "Purchase #1003 (8 EUR)" } },
+    { "transfer": { "from": "Alice", "to": "Bob", "amount": 50 } },
+    { "redeem": { "customer": "Bob", "rewardId": 0 } },
+    { "award": { "to": "Alice", "amount": 150, "reason": "Purchase #1004 (15 EUR)" } },
+    { "redeem": { "customer": "Alice", "rewardId": 2 } },
+    { "redeem": { "customer": "Carol", "rewardId": 1 } }
+  ]
+}

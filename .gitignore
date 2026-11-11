@@ -1,0 +1,12 @@
+# Internal team notes (not part of the submission)
+docs/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Safety net (each part also has its own .gitignore)
+node_modules/
+.env
+.env.*

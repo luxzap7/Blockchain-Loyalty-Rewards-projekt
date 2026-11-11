@@ -1,0 +1,18 @@
+# Node modules
+/node_modules
+
+# Compilation output
+/dist
+/artifacts
+/cache
+/types
+
+# Environment files
+.env
+.env.*
+
+# Coverage reports
+/coverage
+
+# Local deployment output (re-created by `npm run deploy:local`)
+/deployments
